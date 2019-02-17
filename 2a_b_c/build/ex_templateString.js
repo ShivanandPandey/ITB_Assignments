@@ -1,0 +1,1 @@
+"use strict";function upper(){}var name="kyle",twitter="getify",classname="es6 workshop";console.log(!1);

@@ -1,0 +1,1 @@
+"use strict";var x=2,fns=[];(function(){for(var a=0;a<5;a++);})(),console.log(4===fns[4]());

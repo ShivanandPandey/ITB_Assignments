@@ -1,0 +1,1 @@
+"use strict";function foo(){}function bar(){return foo()}console.log("281012"===bar().join(""));

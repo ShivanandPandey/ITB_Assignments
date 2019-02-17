@@ -1,0 +1,1 @@
+"use strict";function ajax(a,b){b({foo:2,baz:[6,8,10],bam:{qux:12}})}function check(a){console.log(56===a.foo+a.bar+a.baz[0]+a.baz[1]+a.baz[2]+a.bam.qux+a.bam.qam)}var defaults={foo:0,bar:4,bam:{qux:0,qam:14}};function response(){check({})}ajax("http://fun.tld",response);

@@ -1,0 +1,1 @@
+"use strict";(function(){var a=function(a){return function(b){if(3<b.length)return b.map(function b(c){return 3<c?c+2*a:b(4*c)});var c=[];return setTimeout(function(){c.length=1,c[0]=this.w}.bind(this),100),c}}(2),b=[1,3,4],c=b.concat(6);b=a.call({w:42},b),c=a(c),setTimeout(function(){console.log(b[0]===c.reduce(function(a,b){return a+b},0))},200)})();
